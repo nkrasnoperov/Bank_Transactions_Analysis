@@ -58,11 +58,11 @@
 
 # 
 
-# Which locations contribute most to changes in transaction volume?
+# Which customers have made several transactions and have a high average transaction amount?
 
 # 
 
-# Which accounts exhibit unusual transaction patterns?
+# Do repeated login attempts correlate with transaction size?
 
 # 
 
