@@ -1,4 +1,4 @@
-# Banking Transaction Analysis Using MySQL
+# Banking Transaction Analysis Using MySQL and Visualisation In Power BI
 
 # 
 
@@ -30,7 +30,7 @@
 
 # 
 
-# &#x09;MySQL Workbench
+# &#x09;MySQL Workbench, Power BI
 
 # 
 
@@ -102,5 +102,10 @@
 
 # 
 
-# &#x09;bank\_transactions\_analysis.sql — SQL queries used for the analysis.
+# &#x09;bank\_transactions\_analysis.sql — SQL queries used for the analysis
+
+#
+
+# &#x09;bank\_transactions\_visualisation.pbix — Power BI dashboard
+
 
