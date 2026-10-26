@@ -1,111 +1,98 @@
-# Banking Transaction Analysis Using MySQL and Visualisation In Power BI
+# Banking Transaction Analysis Using MySQL and Power BI
 
-# 
 
-# Project Overview
 
-# 
+## Project Overview
 
-# &#x09;This project analyses banking transaction data using MySQL to explore transaction patterns, customer behaviour, banking channel usage and potential risk indicators.
 
-# 
 
-# Dataset
+This project analyses banking transaction data using MySQL to explore transaction patterns, customer behaviour, banking channel usage and potential risk indicators.
 
-# 
 
-# &#x09;Source: Kaggle banking transactions dataset
 
-# 
+## Dataset
 
-# &#x09;Records: 2,512 transactions
 
-# 
 
-# &#x09;Key variables: TransactionAmount, TransactionDate, TransactionType, Location, Channel, AccountID, CustomerAge, CustomerOccupation, AccountBalance and LoginAttempts
+Source: Kaggle banking transactions dataset (https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection)
 
-# 
 
-# Tools Used
 
-# 
+Records: 2,512 transactions
 
-# &#x09;MySQL Workbench, Power BI
 
-# 
 
-# &#x09;MySQL 8.0+
+Key variables: TransactionAmount, TransactionDate, TransactionType, Location, Channel, AccountID, CustomerAge, CustomerOccupation, AccountBalance and LoginAttempts
 
-# 
 
-# &#x09;GitHub
 
-# 
+## Tools Used
 
-# Key Business Questions
 
-# 
 
-# How does transaction volume and value change over time?
+MySQL Workbench
 
-# 
 
-# Which customer segments have the highest transaction activity?
 
-# 
+MySQL 8.0+
 
-# Which banking channels are most frequently used?
 
-# 
 
-# Which customers have made several transactions and have a high average transaction amount?
+GitHub
 
-# 
 
-# Do repeated login attempts correlate with transaction size?
 
-# 
+Power BI
 
-# SQL Techniques
 
-# 
 
-# &#x09;Aggregations (COUNT, SUM, AVG, MIN, MAX)
+## Key Business Questions
 
-# 
 
-# &#x09;GROUP BY and HAVING
 
-# 
+How many transactions and accounts are in the dataset, and what period does the data cover?
 
-# &#x09;CASE WHEN
 
-# 
 
-# &#x09;Common Table Expressions (CTEs)
+Which location/occupation combinations have the highest average transaction amounts?
 
-# 
 
-# &#x09;Subqueries
 
-# 
+Which transaction type represents the highest recorded transaction value?
 
-# &#x09;Window functions
 
-# 
 
-# &#x09;Conditional aggregation
+How do transaction count and value change by month?
 
-# 
 
-# Project Files
 
-# 
+Which age groups have the highest average transaction?
 
-# &#x09;bank\_transactions\_analysis.sql — SQL queries used for the analysis
 
-#
 
-# &#x09;bank\_transactions\_visualisation.pbix — Power BI dashboard
+Which channels are used most, and what proportion of all transactions does each channel represent?
 
+
+
+Which accounts have the highest average transaction amount among accounts with at least three transactions?
+
+
+
+How do transaction size and duration vary across login-attempt groups?
+
+
+
+## Project Files
+
+
+
+bank\_transactions\_data\_2 — csv data file
+
+
+
+bank\_transactions\_analysis.sql — SQL queries used for the analysis
+
+
+
+bank\_transactions\_visualisation — Power BI dashboard
 
